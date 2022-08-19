@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <input id="open-pop-up-btn" type="button" class="input-container longTitle pinkColor" value="Стать партнёром проекта">
+
+    <div id="pop-up-form" class="bg">
+        <div class="window">
+
+            <h1 class="title">Стать партнёром проекта</h1>
+
+            <div class="personal-info">
+                <div class="fields"></div>
+                <div class="logo-container">
+                    <div>
+                        <p class="logo-title"> <span class="star">✱</span> Логотип (jpeg, png)</p>
+                    </div>
+                    <div class="photo-container">
+                        <label >
+                            <input type="file" id="file" accept="image/jpeg, image/png, image/jpg" style="display: none;">
+                            <img id="logo" src="./img/Ellipse 44.svg" alt="" class="photo">
+                            <p class="photo-text">Выберите файл</p>
+                        </label>
+                            <img src="./img/Vector.svg" class="photo-import-icon">
+                            <img id="logo-close-icon"src="./img/Group 2394.svg" class="photo-close-icon">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="fields"></div>
+
+            <input id="send-form-btn" type="button" class="input-container longTitle pinkColor" value="Стать партнёром проекта">
+
+            <a id="cancel" class="cancel"><p>Отменить</p></a>
+        </div>
+
+    </div>
+
+    <div id="pop-up-form-accepted" class="bg">
+        <div id='pop-up-form-accepted-window' class="window form-accepted-pop-up">
+            <h1 class="title">Форма успешно отправлена</h1>
+        <div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
